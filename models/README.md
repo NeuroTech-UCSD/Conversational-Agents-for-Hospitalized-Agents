@@ -1,0 +1,1 @@
+The model will be downloaded here upon running `Intent_rec_project (TensorFlow).ipynb` or `Intent_rec_project (PyTorch).ipynb`
