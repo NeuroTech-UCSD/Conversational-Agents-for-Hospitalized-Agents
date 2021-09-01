@@ -24,6 +24,7 @@ For each user query, the agent engaged in a multi-stage process to produce an in
 After the general topic had been discerned, stage two of the process enabled the response to be personalized based on specific entities present in the user’s query, rather than simply generating a blanket response for each of the five intents. Depending on the intent, this stage could consist of multiple components: further classifying the query into a sub-intent category, searching the sentence for foods or names present in a list, or some combination of the two. Bart-large was used universally for the sub-intent classification task, as its zero-shot classification pipeline proved quite adept at classifying sentences into more specific categories. The model returned confidence scores corresponding to each of the provided labels, and the label with the highest score was selected as the sub-intent. The final response was formulated based on pre-written templates for the intent (or subintent) that were then customized with any additional information extracted in the second stage. 
 
 # Demo of results
+![](img/gui demo.png)
 Please refer to `GUI.ipynb` for more details
 
 # References
