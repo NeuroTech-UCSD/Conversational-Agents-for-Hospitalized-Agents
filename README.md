@@ -25,6 +25,7 @@ After the general topic had been discerned, stage two of the process enabled the
 
 # Demo of results
 ![](img/demo.png)
+
 Please refer to `GUI.ipynb` for more details
 
 # References
