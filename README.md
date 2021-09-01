@@ -27,14 +27,11 @@ After the general topic had been discerned, stage two of the process enabled the
 Please refer to `GUI.ipynb` for more details
 
 # References
-[1] Comstock, Jonah  (2019). How a voice assistant can be a constant companion for hospital-bound patients. Www.Mobihealthnews.Com. https://www.mobihealthnews.com/news/how-voice-assistant-can-be-constant-companion-hospital-bound-patients 
-[2] Bhattacharyya, S., Ray, S., & Dey, M. (2020). Context-Aware Conversational Agent for a Closed Domain Task. In: Mandal J., Mukhopadhyay S. (eds) Proceedings of the Global AI Congress 2019. Advances in Intelligent Systems and Computing, vol 1112. Springer, Singapore. https://doi.org/10.1007/978-981-15-2188-1_24 
-[3] Larson, S., Mahendran, A., Peper, J. J., Clarke, C., Lee, A., Hill, P., ... & Mars, J. (2019). An evaluation dataset for intent classification and out-of-scope prediction. arXiv preprint arXiv:1909.02027.
-[4] SimGus (2018). Chatette: A data generator for Rasa NLU [Electronic resource: Python source code]. https://github.com/SimGus/Chatette
-[5] How one hospital is incorporating voice assistants into care delivery (2020). www.advisory.com. https://www.advisory.com/blog/2020/03/voice-assistant-technology 
-[6] Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer. (2019) BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension. 	arXiv:1910.13461
-
-[7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 	arXiv:1810.04805.
-[8] Braun, D., Hernandez-Mendez, A., Matthes, F., Langen, M. (2017). Evaluating natural language understanding services for conversational question answering systems. In: SIGDIAL Conference. https://doi.org/10.18653/v1/W17-5522 
-Presentation
-
+[1] Comstock, Jonah  (2019). How a voice assistant can be a constant companion for hospital-bound patients. Www.Mobihealthnews.Com. https://www.mobihealthnews.com/news/how-voice-assistant-can-be-constant-companion-hospital-bound-patients <br>
+[2] Bhattacharyya, S., Ray, S., & Dey, M. (2020). Context-Aware Conversational Agent for a Closed Domain Task. In: Mandal J., Mukhopadhyay S. (eds) Proceedings of the Global AI Congress 2019. Advances in Intelligent Systems and Computing, vol 1112. Springer, Singapore. https://doi.org/10.1007/978-981-15-2188-1_24 <br>
+[3] Larson, S., Mahendran, A., Peper, J. J., Clarke, C., Lee, A., Hill, P., ... & Mars, J. (2019). An evaluation dataset for intent classification and out-of-scope prediction. arXiv preprint arXiv:1909.02027. <br>
+[4] SimGus (2018). Chatette: A data generator for Rasa NLU [Electronic resource: Python source code]. https://github.com/SimGus/Chatette <br>
+[5] How one hospital is incorporating voice assistants into care delivery (2020). www.advisory.com. https://www.advisory.com/blog/2020/03/voice-assistant-technology <br>
+[6] Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer. (2019) BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension. 	arXiv:1910.13461 <br>
+[7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 	arXiv:1810.04805. <br>
+[8] Braun, D., Hernandez-Mendez, A., Matthes, F., Langen, M. (2017). Evaluating natural language understanding services for conversational question answering systems. In: SIGDIAL Conference. https://doi.org/10.18653/v1/W17-5522 <br>
