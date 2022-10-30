@@ -9,6 +9,4 @@ COPY . .
 RUN pip install -e .
 RUN pip install -r requirements.txt
 
-
-CMD [ "python", "scripts/download_model.py" , "--bart_large_only" ]
 CMD [ "python", "scripts/chatbot.py" ]
