@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crack-lamp-344915",
+  "private_key_id": "8fb85c005730f54dbbc0739407a584ae6ace9eac",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCXsiWATQ2VSug5\nVleU0sV3E5HF7E1QQXOOkUiqjV8dcliaFgi/HFPpnDW6eg2Jl8DOFtdsvAAm7feD\nnCm81DZVXW6Z/3TKcas1HtsKNg0X1iTSZn1dq2tf/0aw2RwcToyatOVRTwlgmZHX\ny9m7OU8SWvbpLXbb7I/AsD1rv2poP710AMZzvgSm5oeqYsqoylvhT2cEwPeF4Bi7\nDzo4rPGxCE/k2bxT+ip1Rum+iwYb8m09+rwOuxDqs5Ndtyj48lJWZ+8vZE7A9Hgv\neiII3qJ3SJK3+/CNzPHgYeJuFhNO7HnTkR9Zgr7K8Yvf4hFTW16z65JRu+vd7idA\n+rHkMvM7AgMBAAECggEAR/8QpmarsjYlpoTwt10bxErA7nebMCKIVltk6jGDuaWa\nILOhfhbTSrZNl84y26FvLEESCHTn+5II3emBs7HigbyA8E0aoLS3RdR5sEx8BVqp\nCkUDbjAcG6k8Y1X/7f1n5UtC5UbGVBc+7XU+RwpJmZQbyQq/dVy+03yyAhAM0CHo\n4qT4tqX1Ms1US26kmq13Q/WuLwkC+yXda6UBhEON5FiI/O5VpgQNuxSIiiyPHbB/\n1tf24VbFNfSbCkzePTdh2vuROh1jmL+I87YjG0MRXN6dnpPpZC4v8IBcDYbWjhlx\ntMbFZ46vyf60yUgCGn9O+AZgPf/F3R1gKhTGVFtN1QKBgQDTbfGyD0f3Ddhp9Xsm\neSC4H0bqAQmhIr1vRExGhKyJJepVw+yz00rjsqvKQE5wpEAX6U86Nflcpu7t3lMW\ndcfOqrrpzBmVpifZDB8WkvNFUmv7zsitrTMthjxzAMonDn3fK5fdt2aLDlnN5GOk\nLs/oHdU58lV+H4f7JwrHbC7alwKBgQC3rJrPo7OWn1F0qoO7spPiH7HUgmAEih2P\nANvSmkkOXmXz3Iu2kBYHqUy2NphTKXyvCdVQvftwf57ccarn/3nQGTWwGpFcts7c\n3Q0v+8agdMhKHLrihBhm3t/IF9aDNnYFcEmZakZhL+hlnh9gFMjRAYXmoGUTb/6/\nbbOmbXv0/QKBgQC66uEZrR7PUIM6MdcdDUsa3DPiXuZ3eXIGM1hHo7WxTj7ccekK\nlcsIgIYVuUJfnSY4vX/Yk60P91kWHE5SdfAeSpwSY+leftWNsoStfV7qs1JZ/Nc3\ni/7JyXoZpeISI2KucSjC0Ags+ZP1TWu109jkebNvlkl0xkV+iWajJYZKowKBgGq0\nGofQKU+ypIarXLZZKzJtiUjUqOVaO4vNSudRfGmdi4sdMAlSMYon34nns5x0eJvT\nkZpDlGQpr+ePHWOD9odfbeItvQ7ooMqMnNGoah7jWUw83pEjfm2cwtKijptRs0S7\nk/ZNWC+zvkXyk3Wk/Xj2coyl17JwGMWq/HgOGLodAoGAX6sqk1nk/r1tji8inoSD\ntqNoYFDrwhpNDk3ghQxcmanFDTBD7arFF8Bq9bMh7tM+LonuYniW1VDtz0ElEr7c\nuuiyCM3Z+u3oD6HIZfNawdT7L34Q0Iph134Iz5SFo1PTqiLeDD+Ps9VJEga+lWpC\nf8CI4rSH2nrn70eeUkeH53I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "conversation-agent@crack-lamp-344915.iam.gserviceaccount.com",
+  "client_id": "115709905280445570308",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/conversation-agent%40crack-lamp-344915.iam.gserviceaccount.com"
+}

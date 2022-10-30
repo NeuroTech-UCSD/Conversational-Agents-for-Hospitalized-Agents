@@ -1,0 +1,8 @@
+jupyterlab
+ipykernel
+chatette
+tqdm
+sentencepiece
+sklearn
+seaborn
+datasets

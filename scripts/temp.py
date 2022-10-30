@@ -1,0 +1,1 @@
+from src.cloud_utils import predict_custom_trained_model_sample

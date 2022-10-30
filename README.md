@@ -7,6 +7,13 @@ How can we formulate an intelligent bot response based on queries from hospitali
 # Background & Prior Work
 Previous studies have shown that a specialized voice assistant could answer many of the basic questions asked by patients, giving nurses and physicians more time to handle urgent tasks [1]. Furthermore, there have been instances in which a patient has shown a greater sense of confidence and joy by simply interacting with Alexa [5]. While state-of-the-art conversational agents such as Google Assistant, Alexa, and Siri have begun gaining a foothold in improving hospitalized patient’s well-being, these devices cannot be directly employed in the hospitalized setting as they are not trained for commands specific to the hospitalized patients. For example, “call the nurse to bring some water” might be a common query from hospitalized patients, but it would not be well-understood by existing voice assistive technologies. Therefore, the goal of this research is to develop a conversational agent adapted to the frequent needs of hospitalized patients that formulates intelligent bot responses accordingly. 
 
+# To reproduce repo
+* `pip install -e .` to activate `setup.py`
+* `pip install -r requirements.txt` to download dependencies
+* `python scripts/download_model.py` to download pretrained layers
+* `python scripts/train_model.py` to generate dataset, train model, and save the model to `models` folder
+* export GOOGLE_APPLICATION_CREDENTIALS=service.json
+
 # Methods
 ## Generate Dataset
 Other implementations of conversational agents that generate responses to closed domain tasks have used the Rasa framework to train a model on sentences with labeled intents and entities [2, 8]. Owing to time limitations and a shortage of relevant datasets, we elected to create our own labeled artificial dataset using a specialized Python package called Chatette. Chatette (which is based off of the NLP dataset generator Chatito) generates examples of sentences corresponding to specific intents based on specific structures and keywords defined by the user [4]. The programmer provides lists of tags, aliases, and other modifiers that will then be used in various combinations in custom-defined sentence structures corresponding to specific intents. The intent labels remain attached to the generated sentences, and the resultant labeled dataset can then be used to train the model. One of the program’s built-in features enabled us to manually adjust the probabilities of generating certain sentence structures to minimize imbalance that would otherwise have arisen in the data (e.g., if the same sentence was generated over and over, with the only difference being the specific person’s name used). Likewise, in order to ensure that the number of examples generated for each category was roughly equal, a cap of five hundred examples was set for each intent.
@@ -37,3 +44,4 @@ Please refer to `GUI.ipynb` for more details
 [6] Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer. (2019) BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension. 	arXiv:1910.13461 <br>
 [7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 	arXiv:1810.04805. <br>
 [8] Braun, D., Hernandez-Mendez, A., Matthes, F., Langen, M. (2017). Evaluating natural language understanding services for conversational question answering systems. In: SIGDIAL Conference. https://doi.org/10.18653/v1/W17-5522 <br>
+

@@ -1,0 +1,274 @@
+%[food](500)
+    I would like some @[food?name] @[food_type?!name] [please?]
+    [I’m|I am] ~[hungry]
+    ~[need] @[food]
+    ~[can_you?] ~[bring] some [food|water] [please?]
+    ~[can_you?] [help|help me] get some [food|water] [please?]
+    ~[can_you?] get some [food|water] [please?]
+    [When|What time] is @[foodtime]
+    ~[can_I?] have @[food_type] for @[foodtime]
+    ~[bring] @[food]
+    ~[bring] @[food_type?name] @[drink_type?!name]
+    Am I getting ~[amount?] @[food]
+    Am I getting ~[amount?] @[food_type?name] @[drink_type?!name]
+    Do you know how to get @[food]
+    Do you know how to get @[food_type?name] @[drink_type?!name]
+    ~[ask_exist] any more @[food_type?name] @[drink_type?!name]
+    I ~[desire] to eat @[food_type]
+    I ~[desire] to drink some @[food_type]
+    ~[ask_able] I eat some @[drink_type]
+    ~[ask_able] I drink some @[drink_type]?
+
+%[send_text](500)
+   ~[can_you?name] ~[can_I?!name] send [a?] ~[text]
+   ~[can_you?name] ~[can_I?!name] send [a?] ~[text] to @[person?name/80%] @[name?!name]
+   ~[can_you?name] ~[can_I?!name] ~[text] @[person?name/80%] @[name?!name]
+   ~[text] @[person?name/80%] @[name?!name]
+   [please?] send a ~[text] to @[person?name/80%] @[name?!name]
+
+%[make_call](500)
+   ~[can_you?name] ~[can_I?!name]  make a ~[call]
+   ~[can_you?name] ~[can_I?!name]  make a ~[call] to @[person?name/80%] @[name?!name]
+   ~[can_you?name] ~[can_I?!name] call @[person?name/80%] @[name?!name]
+   ~[can_you?name] ~[can_I?!name] make a ~[call] to @[name]
+   put @[person?name/80%] @[name?!name] on the phone
+   ~[can_you?] ~[call] @[person?name/80%] @[name?!name]
+   put @[person?name/80%] @[name?!name] on the phone
+   [please?] call @[person?name/80%] @[name?!name]
+
+%[get_help](500)
+    ~[ask_able] [anyone|someone] ~[help_action] [me?]
+    ~[can_you?] [call|ask for] ~[article?] @[emergency_person]
+    got a ~[situation]
+    I’m having a ~[situation]
+    there is a ~[situation]
+    help [please?]
+    [I?] [am in need of|require] [help|assistance]
+    [please?] call [in?] ~[article] @[emergency_person]
+    I [need|require] [help_from?] ~[article] @[emergency_person]
+    [Please?] get ~[article] @[emergency_person]
+    [Please?] call Dr. @[last_name]
+    [Please?] call Nurse @[name?name] @[last_name?!name]
+
+%[visitors](500)
+    when @[verb person] coming [to visit?] [me?]
+    ~[ask_exist] any visitors @[date?]
+    @[verb person] visiting [me?] @[date?]
+    is @[name] visiting [me?]
+    when are visiting hours?
+    do I have [any?] visitors @[date?]?
+    [Who’s|who is] [coming|going] to visit [me?] @[date?]
+    is @[name] going to visit [me?] @[date?]
+    when will @[name] visit [me?]
+    is anyone coming to visit @[date?]?
+    [Who’s|who is] coming @[date?]
+
+~[amount]
+    Any
+    Some
+
+~[article]
+   the
+   a
+   my
+
+~[ask_able]
+   can
+   could
+   would
+   will
+   may
+
+~[ask_exist]
+   is there
+   are there
+
+~[bring]
+   Bring
+   Bring me
+   Get me
+
+~[call]
+   call
+   phone call
+
+~[can_I]
+   can I
+   could I
+
+~[can_you]
+   can you
+   could you
+
+@[date]
+   today
+   tomorrow
+   this week
+   next week
+   this month
+
+~[desire]
+   would like
+   Want
+
+@[drink_type]
+   Soda
+   Juice
+   Milk
+   Coffee
+   Tea
+
+@[emergency_person]
+   doctor
+   nurse
+   caregiver
+
+@[food]
+   Food
+   water
+
+@[foodtime]
+   breakfast
+   mealtime
+   lunchtime
+   lunch
+   dinner
+   snack time
+
+@[food_type]
+   Tacos
+   Lasagna
+   Sandwich
+   Pasta
+   Chips
+   Crackers
+   Chocolate
+   Cookies
+
+~[help_action]
+   help
+   assist
+   come
+   come help
+
+~[help_from]
+   help from
+   attention from
+   assistance from
+
+~[hungry]
+   hungry
+   starving
+   thirsty
+
+@[last_name]
+   Smith
+   Johnson
+   Williams
+   Brown
+   Jones
+   Garcia
+   Miller
+   Davis
+   Rodriguez
+
+@[name]
+   william
+   olivia
+   emma
+   ava
+   charlotte
+   sophia
+   amelia
+   isabella
+   mia
+   evelyn
+   harper
+   camila
+   gianna
+   abigail
+   luna
+   ella
+   elizabeth
+   sofia
+   emily
+   avery
+   mila
+   scarlett
+   eleanor
+   madison
+   layla
+   penelope
+   aria
+   chloe
+   grace
+   ellie
+   nora
+   hazel
+   zoey
+   riley
+   victoria
+   lily
+   aurora
+   violet
+   nova
+   hannah
+   emilia
+   zoe
+   stella
+   everly
+   isla
+   leah
+   lillian
+   addison
+   willow
+   lucy
+
+~[need]
+   need
+   Bring
+   call for
+   want
+   get me
+
+@[person]
+   mom
+   my mom
+   my dad
+   dad
+   my brother
+   my family
+   my sister
+
+@[pronoun]
+   he
+   she
+   him
+   her
+   they
+   Them
+
+~[situation]
+   problem
+   emergency
+   situation
+   Issue
+
+~[text]
+   text
+   message
+   text message
+   DM
+
+@[verb person]
+   is mom
+   is my mom
+   is my dad
+   is dad
+   is my brother
+   is my sister
+   is my family
+   are my parents
+   are visitors
+   are the visitors
+   are my friends
