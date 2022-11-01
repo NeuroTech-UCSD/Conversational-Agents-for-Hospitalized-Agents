@@ -28,7 +28,6 @@ model using real-life data, optimize the value of the confidence threshold, and 
 handle while maintaining accuracy.
 
 ## Research Question
-
 How can we formulate an intelligent bot response based on queries from hospitalized patients?
 
 ## Background & Prior Work
