@@ -14,7 +14,7 @@ to serve general populations. Voice assistive technology could prove invaluable 
 setting to serve hospitalized patients. To this end, we set about designing a conversational agent capable of
 classifying five patient-centric intents: making a call, sending a text, asking about visitors, asking for help, and
 asking about food or drink, as well as a category for out-of-scope (OOS) commands. This was accomplished via a two-stage
-process: first, by training a few-shot learning (FSL) BERT model on artificially generated data corresponding to each of
+process: first, by training a few-shot learningush (FSL) BERT model on artificially generated data corresponding to each of
 the six intents (including the OOS category); and second, by using Facebook’s zero-shot learning (ZSL) model,
 bart-large, to further specify the nature of the intent of the patient query. The bart-large model returns the
 probability scores for a given set of labels, and the highest-scoring label is selected as the sub-intent. Due to the
@@ -44,6 +44,7 @@ frequent needs of hospitalized patients that formulates intelligent bot response
 
 # Activate docker to work with the rest of the Companion App
 
+* `docker pull ghcr.io/neurotech-ucsd/conversational-agents-for-hospitalized-agents:main`
 * `docker run -e APP_PORT=4002 -e HOST_ADDR=100.112.254.11 ghcr.io/neurotech-ucsd/conversational-agents-for-hospitalized-agents:main`
     * make sure the `APP_PORT` and `HOST_ADDR` are the same for `ssvep-ui` and `OzSpeller`
     * Note that this docker image will stop working after 12/1/2022, as we'll stop hosting our model in VertexAI. You
