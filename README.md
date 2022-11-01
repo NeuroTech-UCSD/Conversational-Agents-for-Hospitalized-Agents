@@ -44,6 +44,7 @@ frequent needs of hospitalized patients that formulates intelligent bot response
 
 # Activate docker to work with the rest of the Companion App
 
+* `docker pull ghcr.io/neurotech-ucsd/conversational-agents-for-hospitalized-agents:main`
 * `docker run -e APP_PORT=4002 -e HOST_ADDR=100.112.254.11 ghcr.io/neurotech-ucsd/conversational-agents-for-hospitalized-agents:main`
     * make sure the `APP_PORT` and `HOST_ADDR` are the same for `ssvep-ui` and `OzSpeller`
     * Note that this docker image will stop working after 12/1/2022, as we'll stop hosting our model in VertexAI. You
