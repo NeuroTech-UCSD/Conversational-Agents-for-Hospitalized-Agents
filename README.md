@@ -5,7 +5,7 @@ more autonomy through the assistance of the chatbot. Below we carry out a full-o
 hospitalized patients using SoTA deep learning models hosted in Vertex AI. To learn more about the project refer to
 https://github.com/NeuroTech-UCSD/Oz-Speller
 
-<img src="images/chatbot_final.gif" width="350" > <br>
+<img src="images/chatbot_final.gif" width="300" > <br>
 
 ## Abstract
 
