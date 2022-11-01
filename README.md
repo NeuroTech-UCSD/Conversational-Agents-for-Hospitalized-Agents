@@ -53,7 +53,8 @@ frequent needs of hospitalized patients that formulates intelligent bot response
 # To contribute to this repo locally
 
 * `pip install -e .` to activate `setup.py`
-* `pip install -r requirements.txt` to download dependencies
+* `pip install -r requirements.txt` to download dependencies necessary
+* `pip install -r requirements_dev.txt` to download dependencies for the notebook
 * `python scripts/download_model.py` to download pretrained layers
 * `python scripts/train_model.py` to generate dataset, train model, and save the model to `models` folder
 * `python scripts/predict_model.py` to play around with the model
