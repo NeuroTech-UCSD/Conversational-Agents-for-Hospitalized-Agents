@@ -3,7 +3,7 @@
 For ALS patients who have to rely on their caretaker for their day-to-day activities, we want to empower them to have
 more autonomy through the assistance of the chatbot. Below we carry out a full-on research to create a chatbot for
 hospitalized patients using SoTA deep learning models hosted in Vertex AI. To learn more about the project refer to
-https://github.com/NeuroTech-UCSD/Oz-Speller
+https://github.com/NeuroTech-UCSD/Oz-Speller. To see the full video explaination of the project, please go to [Oz-Speller, the SSVEP EEG Virtual Keyboard | Triton NeuroTech 2022](https://www.youtube.com/watch?v=lCYkRotGZEc)
 
 <img src="images/chatbot_final.gif" width="300" > <br>
 
